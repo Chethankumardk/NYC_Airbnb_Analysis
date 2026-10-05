@@ -47,7 +47,7 @@ import seaborn as sns
 
 # Read the data set
 
-airbnb_df = pd.read_csv("./Data/Airbnb_Open_Data.csv",low_memory=False)
+airbnb_df = pd.read_csv("data/Airbnb_Open_Data.csv", low_memory=False)
 airbnb_df.head(5)
 
 
