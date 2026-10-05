@@ -85,6 +85,16 @@ The raw dataset is not redistributed in this repository. See [`data/README.md`](
 4. Install the required Python libraries.
 5. Open `notebooks/nyc_airbnb_eda.ipynb` in Jupyter Notebook and run the cells in order.
 
+## Analysis Limitations
+
+This project represents an exploratory data-analysis workflow and the preprocessing decisions should be considered when interpreting the results.
+
+- Missing values in several fields were imputed using mode or median values.
+- Potential price and service-fee outliers were identified using a three-standard-deviation threshold.
+- Negative `minimum_nights` values were converted to positive values as part of the original cleaning workflow.
+- These preprocessing choices can influence distributions, averages, and relationships observed in the subsequent analysis.
+- The analysis should therefore be interpreted as exploratory rather than as a validated statistical or predictive study.
+- 
 ## Portfolio Scope
 
 This repository demonstrates practical skills in:
